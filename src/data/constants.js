@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Rishav Chanda",
+  name: "Muhammad Arsil",
   roles: [
     "Full Stack Developer",
     "Android Developer",
@@ -469,7 +469,7 @@ export const projects = [
     webapp: "https://podstream.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
+        name: "Muhammad Arsil",
         img: "https://avatars.githubusercontent.com/u/64485885?v=4",
         linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
         github: "https://github.com/rishavchanda/",
@@ -516,7 +516,7 @@ export const projects = [
     webapp: "https://brain-tumor.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
+        name: "Muhammad Arsil",
         img: "https://avatars.githubusercontent.com/u/64485885?v=4",
         linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
         github: "https://github.com/rishavchanda/",
