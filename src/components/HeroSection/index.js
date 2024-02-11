@@ -18,7 +18,22 @@ import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 import { Button } from "@mui/material";
 import { FaYoutube } from "react-icons/fa";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
+const useStyles = makeStyles((theme) => ({
+  button: {
+    height: 60,
+    width: 150,
+    borderRadius: 18,
+    marginLeft: 10,
+    marginTop: -5, // Default marginTop
+    [theme.breakpoints.down("xs")]: {
+      marginTop: 10, // Add marginTop for small devices (xs breakpoint)
+    },
+  },
+}));
 const HeroSection = () => {
+  const classes = useStyles();
+  const theme = useTheme();
   return (
     <div id="about">
       <HeroContainer>
@@ -44,20 +59,18 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
+            <ResumeButton
+              style={{ marginBottom: "15px" }}
+              href={Bio.resume}
+              target="display"
+            >
               Check Resume
             </ResumeButton>
             <Button
               variant="contained"
               color="error"
               size="large"
-              style={{
-                height: 60,
-                width: 150,
-                borderRadius: 18,
-                marginLeft: 10,
-                marginTop: -5,
-              }}
+              className={classes.button}
               onClick={() =>
                 window.open("https://www.youtube.com/@arsil_malek")
               }
