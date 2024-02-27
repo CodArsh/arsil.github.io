@@ -131,7 +131,7 @@ export const experiences = [
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Frontend Developer",
     company: "Groovy Web",
-    date: "May 2022 - Present",
+    date: "May 2022 - Feb 2024",
     desc: "I work as front end developer in this company. Here I create web and mobile apps with my team using React JS, React Native, Redux, JavaScript, MUI, Ant Desig, etc.",
     skills: ["React Native", "Redux", "iOS", "Android", "Animations", "NodeJs"],
   },
