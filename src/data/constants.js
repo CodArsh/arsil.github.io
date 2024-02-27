@@ -5,7 +5,7 @@ export const Bio = {
     "A dedicated MERN Stack Developer with a knack for solving logical and intricate problems. I specialize in crafting dynamic and user-friendly Mobile and Web applications that resonate with end-users. I'm also an avid open-source contributor. Through my YouTube channel, I share insights and tutorials on coding.",
   github: "https://github.com/CodArsh",
   resume:
-    "https://drive.google.com/file/d/1amzTS4oU8iEGeEDMNzmnw_1bo54nZz12/view?usp=drive_link",
+    "https://drive.google.com/file/d/1lv1w42iJOVQ1Lx811GYVb70QF2nMtX1e/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/arsil-malek-48615b228/",
   insta: "https://www.instagram.com/arsilmalek7/",
 };
